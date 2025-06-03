@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylecarrossel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hoquei na grama</title>
+</head>
+<body>
+  <nav>
+
+    <div class="logo">
+        <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> </a>
+    </div>
+
+    <ul class="menu-desktop">
+        <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+        <li> <a href="paginaHistoria.html"> História </a> </li>
+        <li> <a href="paginaRegras.html"> Regras </a> </li>
+        <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+        <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+        <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+    </ul>
+    <ul class="menu-mobile">
+        <div class="icon-close">
+            <i class="fa fa-window-close" aria-hidden="true"></i>
+        </div>
+        <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+        <li> <a href="paginaHistoria.html"> História </a> </li>
+        <li> <a href="paginaRegras.html"> Regras </a> </li>
+        <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+        <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+        <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa fa-minus-square" aria-hidden="true"></i>
+    </div>
+
+
+</nav>
+    <div class="banner">
+        <div class="texto">
+            <h1 class="titulo">CARROSEL</h1>
+            <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicadores -->
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#meuCarrossel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#meuCarrossel" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#meuCarrossel" data-bs-slide-to="3"></li>
+                  <li data-bs-target="#meuCarrossel" data-bs-slide-to="4"></li>
+                  <li data-bs-target="#meuCarrossel" data-bs-slide-to="5"></li>
+                </ol>
+            
+                <!-- Slides -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src= "imgs/carrosel/imagem 1.png" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption">
+                      <h5>Treino de hóquei sobre a grama</h5>
+                      <p>O holandês Ernst Onnes, jogador da seleção brasileira de hóquei,durante treino no rio.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/carrosel/imagem2.png" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption">
+                      <h5>Treino de hóquei sobre a grama</h5>
+                      <p>Jogador conduz bola durante treino da seleção brasileira.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/carrosel/imagem3.png" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption">
+                      <h5>Treino de hóquei sobre a grama</h5>
+                      <p>Goleiro treinando defesa durante o treino.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/carrosel/imagem4.png" class="d-block w-100" alt="Slide 4">
+                    <div class="carousel-caption">
+                      <h5>Treino de hóquei sobre a grama</h5>
+                      <p>Jogadores da seleção brasileira durante o treino no centro olímpico.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/carrosel/imagem5.png" class="d-block w-100" alt="Slide 5">
+                    <div class="carousel-caption">
+                      <h5>Treino de hóquei sobre a grama</h5>
+                      <p>Claudio Rocha, Treinador da seleção brasileira de hóquei sobre a grama.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/carrosel/imagem6.png" class="d-block w-100" alt="Slide 6">
+                    <div class="carousel-caption">
+                      <h5>Treino de hóquei sobre a grama</h5>
+                      <p>Adam, jogador da seleção brasileira durante treino no Centro olímpico.</p>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Controles -->
+                <a class="carousel-control-prev" href="#meuCarrossel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#meuCarrossel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Próximo</span>
+                </a>
+              </div>
+            
+              <!-- Inclua o arquivo JavaScript do Bootstrap (opcional) -->
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+          
+        </div>
+        </div>
+    </div>
+    <script>
+      var menuIcon = document.querySelector('.menu-icon');
+      var menuMobile = document.querySelector('.menu-mobile');
+      var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+      menuIcon.addEventListener('click',function(){
+          menuMobile.classList.add('ativo');
+      });
+      iconClose.addEventListener('click',function(){
+          menuMobile.classList.remove('ativo');
+      });
+
+  </script>
+    
+</body>
+</html>

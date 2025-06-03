@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylemedalhista.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hoquei na grama</title>
+    <title>Hoquei na grama</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> </a>
+        </div>
+
+        <ul class="menu-desktop">
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <ul class="menu-mobile">
+            <div class="icon-close">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+            </div>
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-minus-square" aria-hidden="true"></i>
+        </div>
+
+
+    </nav>
+    <section class="banner">
+        <div class="texto">
+           <h1 class="titulo">OS PRIMEIROS MEDALHISTAS </h1>
+            <br>
+            <h2 class="sub_titulo">Masculino</h2>
+                <div class="conteudo">
+                    <p>Os primeiros medalhistas olímpicos do esporte hóquei sobre a grama foram os jogadores da equipe Inglaterra, que ganharam a medalha de ouro nos Jogos Olímpicos de Londres em 1908, sendo os jogadores Louis Baillon, Harry Freeman, Eric Green, Gerald Logan, Alan Noble, Edgar Page, Reggie Pridmore, Percy Rees, John Yate Robinson, Stanley Shoveller e Harvey Wood.</p>
+           </div>
+           <br>
+           <h3 class="sub_titulo">Feminino</h3>
+            <div class="conteudo">
+                <p>
+                    O primeiro torneio feminino de hóquei sobre a grama foi disputado nos Jogos Olímpicos de Moscou em 1980, com a equipe do Zimbábue sagrando-se campeã.
+                </p>
+            </div>
+            <figure>
+                <img src="imgs/curiosidades/equipe-zimbabwe-campea-1980.jpeg"
+                     alt="Equipe feminina de Zimbabwe">
+                <figcaption>Equipe feminina de Zimbabwe</figcaption>
+            </figure>    
+
+        </div>
+    </section>
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');
+        });
+
+    </script>
+    
+</body>
+</html>

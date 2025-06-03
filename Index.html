@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hoquei na grama</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> </a>
+        </div>
+
+        <ul class="menu-desktop">
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <ul class="menu-mobile">
+            <div class="icon-close">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+            </div>
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-minus-square" aria-hidden="true"></i>
+        </div>
+
+
+    </nav>
+    <div class="banner">
+        <div class="texto">
+           <h1 class="titulo">HÓQUEI SOBRE A GRAMA</h1>
+           <h2>
+            <iframe width="960" height="540" src="https://www.youtube.com/embed/AcbAbqLDhHg" title="Apresentação Hóquei Sobre Grama - Brasil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+           </h2>
+           <div class="botoes">
+            <a href="paginaMedalhista.html"><button class="n-overlay">Medalhistas olímpicos</button></a>
+            <a href="paginaCarrosel.html"><button class="n-overlay">Carrossel de imagens</button></a>
+        </div>
+        </div>
+    </div>
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');
+        });
+
+    </script>
+    
+</body>
+</html>

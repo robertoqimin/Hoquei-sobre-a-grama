@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylecuriosidades.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hoquei na grama</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> </a>
+        </div>
+
+        <ul class="menu-desktop">
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <ul class="menu-mobile">
+            <div class="icon-close">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+            </div>
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-minus-square" aria-hidden="true"></i>
+        </div>
+
+
+    </nav>
+    <section class="banner">
+        <div class="texto">
+           <h1 class="titulo">CURIOSIDADES</h1>
+                <br>
+           <h2 class="sub_titulo">A imbatível Índia</h2>
+            <div class="conteudo">
+                <p>Depois de adotar o hóquei sobre a grama, levado à Ásia pelos ingleses, a Índia montou uma verdadeira dinastia olímpica na modalidade. Os indianos são os maiores vencedores do esporte, com nove medalhas de ouro conquistadas. Grande parte desse sucesso foi construído entre os Jogos de Amsterdã-1928 e de Roma-1960.</p><br>
+                <p>
+                    Nessas sete edições das Olimpíadas, a Seleção Indiana conquistou uma sequência impressionante de 30 vitórias e seis medalhas de ouro. Os maiores campeões do hóquei sobre grama fizeram 197 gols nos adversários e sofreram apenas oito. Entre as vitórias, destaque para as goleadas por 24 a 1 sobre os Estados Unidos, em Los Angeles-1932, e por 16 a 0, novamente contra os norte-americanos, em Melbourne-1956.
+                </p><br>
+                <p>
+                    O responsável por encerrar a invencibilidade foi o Paquistão. A final olímpica em Roma-1960, vencida pelos paquistaneses por 1 a 0, é até hoje considerada uma tragédia na Índia, que se preparou ainda mais para retomar o ouro olímpico quatro anos mais tarde, em Tóquio-1964.
+                </p>
+            </div>
+            <figure>
+                <img src="imgs/curiosidades/Indian-Hockey-Team-Berlin-1936.jpg"
+                     alt="Equipe campeã olímpica de 1936.">
+                <figcaption>Equipe campeã olímpica de 1936.</figcaption>
+            </figure>
+            <br>
+           <h3 class="sub_titulo">O apito e as prorrogações</h3>
+            <div class="conteudo">
+                <p>As Olimpíadas de Roma-1960 tiveram dois episódios marcantes na disputa do hóquei sobre grama. O primeiro deles foi na partida entre Bélgica e França. Em um jogo disputado, belgas e franceses empatavam sem gols. Em um dos ataques da França, um policial que estava do lado de fora do estádio, muito próximo ao campo, apitou. Os belgas, achando que tinha sido o árbitro da partida, pararam de jogar. Na sequência do lance, a França marcou o gol, para desespero da Seleção da Bélgica. A partida terminou em 1 a 0.</p><br>
+                <p>Na disputa do quinto lugar em Roma, Grã Bretanha e Quênia fizeram uma partida “eterna”. Um jogo normal de hóquei na grama é composto por dois tempos de 35 minutos. Ou seja, termina em 70 minutos. Mas o empate entre britânicos e quenianos persistiu por nada menos do que seis prorrogações. Foram necessários 127 minutos para que os britânicos desempatassem a partida e vencessem por 2 a 1.</p>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');
+        });
+
+    </script>
+    
+</body>
+</html>
