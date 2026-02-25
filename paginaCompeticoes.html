@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylecompeticoes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hoquei na grama</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> </a>
+        </div>
+
+        <ul class="menu-desktop">
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <ul class="menu-mobile">
+            <div class="icon-close">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+            </div>
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-minus-square" aria-hidden="true"></i>
+        </div>
+
+
+    </nav>
+    </nav>
+    <section class="banner">
+        <div class="texto">
+           <h1 class="titulo">COMPETIÇÕES</h1>
+           <h2 class="sub_titulo">Jogos Olímpicos </h2>
+                    <div class="conteudo">
+                        <p> O hóquei em campo estreou no programa olímpico nos Jogos de 1908 em Londres. A primeira equipe campeã foi a equipe da Inglaterra, que jogou a final contra a Irlanda (que na época também fazia parte do Reino Unido). Este esporte ficou de fora nas edições de 1912 em Estocolmo e Paris 1924. O desporto regressou de vez ao programa olímpico nos Jogos de 1928 em Amsterdã. Nos quarenta anos seguintes, o torneio olímpico de hóquei em campo foi ganho pela Índia e pelo Paquistão, incluindo seis medalhas de ouro para a equipe indiana.</p>
+                        <br>
+                        <p >O evento feminino estreou nos Jogos de Moscou em 1980, com a vitória do Zimbábue. Os Países Baixos são a nação com mais medalhas no torneio olímpico do hóquei desta modalidade.</p>
+                    </div>
+                    <figure>
+                        <img src="imgs/competicoes/hoquei 2012.jpg"
+                             alt="Hóquei nos Jogos Olímpicos de 2012.">
+                        <figcaption>Hóquei nos Jogos Olímpicos de 2012.</figcaption>
+                    </figure>
+                        
+            <h3 class="sub_titulo">Copa do Mundo de Hóquei</h3>    
+                <div class="conteudo">
+                    <p>
+                        Outro torneio importante é a Copa do Mundo de Hóquei, em edição masculina e feminina, é realizada a cada quatro anos. O Paquistão é o recordista de títulos na modalidade masculina. Entre as mulheres, os Países Baixos detém o maior número de conquistas.
+                    </p>
+                    <br>
+                    <p>
+                        Sua primeira edição foi realizada em 1971, na cidade espanhola de Barcelona. A entidade que administra esta competição é a Federação internacional de Hóquei (FIH). Desde 1982 o torneio se realiza quadrienalmente, no mesmo ano de sua modalidade feminina e, também, no meio do ciclo dos Jogos Olímpicos.
+                    </p>
+                    
+                </div>
+                <figure>
+                    <img src="imgs/competicoes/copa-do-mundo-semifinal.jpg"
+                         alt="Partida semi-final da Copa do Mundo de 2006, entre Alemanha e Espanha, disputada na cidade alemã de Mönchengladbach.">
+                    <figcaption>Partida semi-final da Copa do Mundo de 2006, entre Alemanha e Espanha, disputada na cidade alemã de Mönchengladbach.</figcaption>
+                </figure>
+            <h4 class="sub_titulo">Outras competições</h4>
+                <div class="conteudo">
+                    <p>
+                        A Liga Mundial de Hóquei (Hockey World League) possuía fases distintas, de âmbito continental, cujas melhores seleções se enfrentavam em uma fase final, sendo que este torneio servia como um dos qualificatórios à Copa do Mundo e aos Jogos Olímpicos (o mesmo será substituído pelo Hockey Series, cuja primeira temporada em disputa será a 2018-19). A Copa Sultão Azlan Shah (Sultan Azlan Shah Cup) é um torneio tradicional, disputado apenas na modalidade masculina, atualmente sendo realizado anualmente na Malásia.
+                    </p>
+                </div>
+           </div>
+           <br>
+
+        </div>
+    </section>
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');
+        });
+
+    </script>
+    
+</body>
+</html>

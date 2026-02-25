@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "hoquei_sobre_a_grama",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertoqimin/Hoquei-sobre-a-grama.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertoqimin/Hoquei-sobre-a-grama/issues"
+  },
+  "homepage": "https://github.com/robertoqimin/Hoquei-sobre-a-grama#readme",
+  "description": ""
+}

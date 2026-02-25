@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylehistoria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hoquei na grama</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> </a>
+        </div>
+
+        <ul class="menu-desktop">
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <ul class="menu-mobile">
+            <div class="icon-close">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+            </div>
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-minus-square" aria-hidden="true"></i>
+        </div>
+
+
+    </nav>
+    <section class="banner">
+        <div class="texto">
+           <h1 class="titulo">HISTÓRIA</h1>
+                <br>
+                <p class="conteudo">De acordo com desenhos em baixo-relevo, com a imagem de dois jogadores de hóquei, a versão mais próxima do esporte como o conhecemos hoje surgiu no Egito, por volta de 2000 a.C. O esporte também fez sucesso na Grécia. Em escavações em Atenas foi encontrada a imagem de seis homens com tacos, feita entre 530 e 510 a.C.</p>
+                <br>
+                <p class="conteudo">A primeira referência na Inglaterra aparece em 1775, com os vitrais das catedrais de Canterbury e de Gloucester. A palavra hóquei apareceu pela primeira vez em 1527, também no país. No começo do século XIX, o esporte passou a ser matéria obrigatória nos colégios ingleses. Já com muitos adeptos nas universidades, em 1852 as primeiras regras foram oficializadas no Reino Unido. Logo surgiu o primeiro clube, em 1851, e cinco anos depois, a Associação Inglesa de Hóquei.</p>
+                <br>
+                <p class="conteudo">
+                    O hóquei estreou nos Jogos Olímpicos de Londres 1908 como esporte de exibição, disputado apenas por homens. Nos Jogos Olímpicos da Antuérpia 1920, voltou ao programa olímpico, novamente como exibição. Apenas oito anos depois, em Amsterdã 1928, a modalidade passou a contar para o quadro oficial de medalhas. Nesta edição, a Índia conquistou a medalha de ouro e a partir de então iniciou sua hegemonia olímpica no esporte.</p>
+            <figure>
+                <img src="imgs/historia/escoia-alemanha-hoquei-1908.jpg"
+                 alt="Jogo de hóquei nos Jogos Olímpicos de 1908.">
+                <figcaption>Jogo de hóquei nos Jogos Olímpicos de 1908.</figcaption>
+            </figure>  
+           <br>
+
+        </div>
+    </section>
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');
+        });
+
+    </script>
+    
+</body>
+</html>

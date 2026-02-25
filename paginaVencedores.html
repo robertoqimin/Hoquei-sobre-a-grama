@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylevencedores.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hoquei na grama</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> </a>
+        </div>
+
+        <ul class="menu-desktop">
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <ul class="menu-mobile">
+            <div class="icon-close">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+            </div>
+            <li> <a href="paginaCompeticoes.html"> Competições </a> </li>
+            <li> <a href="paginaHistoria.html"> História </a> </li>
+            <li> <a href="paginaRegras.html"> Regras </a> </li>
+            <li> <a href="paginaVencedores.html"> Vencedores </a> </li>
+            <li> <a href="paginaCuriosidades.html"> Curiosidades </a> </li>
+            <li><a href="paginaSobrenos.html">Sobre nós</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-minus-square" aria-hidden="true"></i>
+        </div>
+
+
+    </nav>
+    <section class="banner">
+        <div class="texto">
+           <h1 class="titulo">VENCEDORES</h1>
+            <br>
+                <div class="tabela">
+                    <table border="1">
+                        <tr>
+                            <th>Ordem</th>
+                            <th>País</th>
+                            <th class="ouro"><i class="fa fa-trophy" aria-hidden="true"></i></th>
+                            <th class="prata"><i class="fa fa-trophy" aria-hidden="true"></i></th>
+                            <th class="bronze"><i class="fa fa-trophy" aria-hidden="true"></i></th>
+                            <th>Total</th>
+                         </tr>
+                         <tr>
+                             <th>1</th>
+                             <th>Índia</th>
+                             <th>8</th>
+                             <th>1</th>
+                             <th>3</th>
+                             <Th>12</Th>
+                         </tr>
+                         <tr>
+                             <th>2</th>
+                             <th>Países Baixos</th>
+                             <th>6</th>
+                             <th>6</th>
+                             <th>6</th>
+                             <Th>18</Th>
+                         </tr>
+                         <tr>
+                             <th>3</th>
+                             <th>Austrália</th>
+                             <th>4</th>
+                             <th>4</th>
+                             <th>5</th>
+                             <Th>13</Th>
+                         </tr>
+                         <tr>
+                             <th>4</th>
+                             <th>Grã-Bretanha</th>
+                             <th>4</th>
+                             <th>2</th>
+                             <th>7</th>
+                             <Th>13</Th>
+                         </tr>
+                         <tr>
+                             <th>5</th>
+                             <th>Alemanha</th>
+                             <th>4</th>
+                             <th>2</th>
+                             <th>4</th>
+                             <Th>10</Th>
+                         </tr>
+                    </table>
+                </div>
+           
+        </div>
+    </section>
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');
+        });
+
+    </script>
+    
+</body>
+</html>
